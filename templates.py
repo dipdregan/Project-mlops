@@ -8,8 +8,14 @@ list_of_files = [
     "src/components/data_pipeline/__init__.py",
     "src/components/data_pipeline/data_ingetion.py",
     "src/components/data_pipeline/data_transformation.py",
+    "src/components/model_pipeline/__init__.py",
     "src/components/model_pipeline/model_trainer.py",
     "src/components/model_pipeline/model_evaluation.py",
+    "src/entity/__init__.py",
+    "src/entity/artifact_entity__.py",
+    "src/entity/config_entity__.py",
+    "src/constant/__init__.py",
+    "src/constant/constant.py",
     "src/pipeline/__init__.py",
     "src/pipeline/data_ingetion_pipeline.py",
     "src/pipeline/data_transformation_pipeline.py",
@@ -27,7 +33,7 @@ list_of_files = [
     "setup.py",
     "tests/unit/__init__.py",
     "tests/integration/__init__.py",
-
+    "app.py",
 ]
 
 for filepath in list_of_files:
